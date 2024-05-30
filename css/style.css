@@ -12,7 +12,40 @@ body{
 
 /*HEADER RULES*/
 
+.container-full{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    background-color: rebeccapurple;
+    width: 50%;
+    height: 100px;
+}
+
+/*JUMBOTRONE RULES*/
+
+.container-1200{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-100{
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+}
+
 /*MAIN RULES*/
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 /*FOOTER RULES*/
 
