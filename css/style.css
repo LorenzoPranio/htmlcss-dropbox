@@ -55,6 +55,17 @@ body{
     background-color: green;
 }
 
+.container-100{
+    width: 100vw;
+}
+
+.col-20{
+    width: calc(100% / 5 - 20px);
+    margin: 10px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
 /*FOOTER RULES*/
 
 /*ID*/
