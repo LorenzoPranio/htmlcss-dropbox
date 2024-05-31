@@ -96,8 +96,15 @@ header a{
 
 .col-33{
     width: calc(100% / 3 - 20px);
-    border: 1px solid rgb(173, 173, 173);
     margin: 10px;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
 }
 
 .container-100{
@@ -141,8 +148,13 @@ hr{
    color: rgb(173, 173, 173);
 }
 
-h3{
+.col-33 h3{
     margin: 40px 0px 20px 20px;
+}
+
+h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 h5{
@@ -159,10 +171,57 @@ li{
     display: inline;
 }
 
+.col-40 h3{
+    margin: 50px 50px 20px 50px;
+    font-size: x-large;
+}
+
+.col-40 p{
+    margin: 20px 50px 20px 50px;
+}
+
+.boxed-text{
+    margin: 20px 200px 20px 50px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
 .t-shop{
     margin-left: 20px;
 }
 
+.hr-small{
+    width: 50px;
+    margin: 50px 20px;
+}
+
+.mar-bot-50{
+    margin-bottom: 50px;
+}
+
+.mar-bot-25{
+    margin-bottom: 25px;
+}
+
+.mar-top-50{
+    margin-top: 50px;
+}
+
+.mar-top-100{
+    margin-top: 100px;
+}
+
+.borg{
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.mar-left-10{
+    margin-left: 10px;
+}
+
+.partner-img{
+    width: 575px;
+}
 
 /*FOOTER RULES*/
 
@@ -198,6 +257,22 @@ li{
     margin: 60px 20px 20px 20px;
 }
 
+#blu-backoffice{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 15px 40px;
+    margin-left: 600px;
+    display: inline-block;
+}
+
+#disp-in{
+    display: inline-block;
+}
+
+#mar-left-10{
+    margin-left: 10px;
+}
+
 /*SIMBOLS*/
 
 .fa-arrow-down{
@@ -222,6 +297,11 @@ li{
 
 .fa-share-nodes{
     margin: 10px;
+}
+
+.fa-check{
+    margin: 10px;
+    color: rgb(0, 132, 255);
 }
 
 /*JUSTIFY*/
