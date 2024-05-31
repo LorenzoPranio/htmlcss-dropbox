@@ -35,20 +35,11 @@ body{
     vertical-align: middle;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
     margin: 10px;
 }
-
-.just-start{
-    justify-content: flex-start;
-}
-
-.just-end{
-    justify-content: flex-end;
-}
-
 
 /*JUMBOTRONE RULES*/
 
@@ -92,22 +83,21 @@ a{
     
 }
 
-p{
+.t-j{
     padding-bottom: 40px;
 }
 
 /*MAIN RULES*/
 
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .col-33{
     width: calc(100% / 3 - 20px);
+    border: 1px solid rgb(173, 173, 173);
     margin: 10px;
-    height: 100px;
-    background-color: green;
 }
 
 .container-100{
@@ -120,6 +110,59 @@ p{
     height: 100px;
     background-color: aquamarine;
 }
+
+.main-title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 60px 10px 40px 10px;
+}
+
+
+button{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.circle{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px 50px;
+    margin: 5px;
+}
+
+hr{
+   color: rgb(173, 173, 173);
+}
+
+h3{
+    margin: 40px 0px 20px 20px;
+}
+
+h5{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
+
+li{
+    display: inline;
+}
+
+.t-shop{
+    margin-left: 20px;
+}
+
 
 /*FOOTER RULES*/
 
@@ -139,8 +182,62 @@ p{
     padding: 10px;
 }
 
+#bg-b{
+    background-color: rgb(0, 132, 255);
+}
+
+#c-g{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+#blu-backmain{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 15px 40px;
+    margin: 60px 20px 20px 20px;
+}
+
 /*SIMBOLS*/
 
-.fa-solid{
+.fa-arrow-down{
     font-size: 45px;
+}
+
+.fa-user{
+    margin: 10px;
+}
+
+.fa-building{
+    margin: 10px;
+}
+
+.fa-users{
+    margin: 10px;
+}
+
+.fa-folder{
+    margin: 10px;
+}
+
+.fa-share-nodes{
+    margin: 10px;
+}
+
+/*JUSTIFY*/
+
+.just-start{
+    justify-content: flex-start;
+}
+
+.just-end{
+    justify-content: flex-end;
+}
+
+.just-cent{
+    justify-content: center;
+}
+
+.t-cent{
+    text-align: center;
 }
