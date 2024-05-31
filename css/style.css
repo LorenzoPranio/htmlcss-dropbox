@@ -223,7 +223,17 @@ li{
     width: 575px;
 }
 
+h1{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
 /*FOOTER RULES*/
+
+footer{
+    color: white;
+    background-color: black;
+}
 
 /*ID*/
 
@@ -263,6 +273,7 @@ li{
     padding: 15px 40px;
     margin-left: 600px;
     display: inline-block;
+    margin-top: 20px;
 }
 
 #disp-in{
