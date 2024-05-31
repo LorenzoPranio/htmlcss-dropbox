@@ -52,6 +52,12 @@ a{
 
 /*JUMBOTRONE RULES*/
 
+.jumbotrone{
+    background-color: rgba(80, 152, 212, 0.5);
+    height: 650px;
+    margin-bottom: 200px;
+}
+
 .container-1200{
     max-width: 1200px;
     margin: 0 auto;
@@ -59,8 +65,35 @@ a{
 
 .col-100{
     width: 100%;
-    background-color: aqua;
-    height: 100px;
+    border: 1px solid black;
+}
+
+.col-30{
+    padding-top: 30px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.col-70{
+    padding-top: 30px;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.jumbo{
+    width: 850px;
+}
+
+.t-l{
+    font-weight: bolder;
+    font-size: 85px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+p{
+    padding-bottom: 40px;
 }
 
 /*MAIN RULES*/
@@ -96,4 +129,18 @@ a{
     background-color: rgb(0, 132, 255);
     color: white;
     padding: 5px 15px;
+}
+
+#blu-backjumb{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 150px;
+    padding: 10px;
+}
+
+/*SIMBOLS*/
+
+.fa-solid{
+    font-size: 45px;
 }
