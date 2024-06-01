@@ -124,6 +124,15 @@ header a{
     width: 50%;
     height: 50%;
     background-color: blueviolet;
+    position: relative;
+}
+
+.col-50vw img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .col-20{
