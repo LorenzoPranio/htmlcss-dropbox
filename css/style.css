@@ -108,7 +108,22 @@ header a{
 }
 
 .container-100{
-    width: 100vw;
+    width: 100%;
+    height: 100vw;
+}
+
+.col-33vw{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50vw{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
 }
 
 .col-20{
