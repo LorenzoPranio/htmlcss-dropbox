@@ -131,6 +131,10 @@ header a{
     transform: translate(-50%, -50%);
 }
 
+.desit{
+    width: 275px;
+}
+
 .col-20{
     width: calc(100% / 5 - 20px);
     margin: 10px;
@@ -252,6 +256,10 @@ h1{
 
 .pad-15{
     padding: 15px;
+}
+
+.pad-30{
+    padding: 30px;
 }
 
 .text-col-img{
