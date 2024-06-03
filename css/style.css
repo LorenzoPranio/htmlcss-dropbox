@@ -55,6 +55,7 @@ header a{
 
 .col-100{
     width: 100%;
+    margin: 10px;
 }
 
 .col-30{
@@ -112,6 +113,7 @@ header a{
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .col-50vw{
@@ -233,7 +235,6 @@ li{
 
 .borg{
     border: 1px solid rgb(173, 173, 173);
-    display: flex;
 }
 
 
@@ -389,6 +390,13 @@ footer hr{
     color: white;
     padding: 15px 40px;
     margin: 60px 20px 20px 20px;
+}
+
+#blu-backmain-plustop{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 15px 40px;
+    margin: 78px 20px 20px 20px;
 }
 
 #blu-backoffice{
