@@ -257,6 +257,15 @@ li{
 .boxed-pub{
     background-color: white;
     padding: 10px;
+    text-align: center;
+    margin-top: 25%;
+    margin-right: 25%;
+    margin-right: 25%;
+}
+
+.title-quest{
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .business-img{
@@ -405,6 +414,16 @@ footer hr{
     margin: 50px 0px;
 }
 
+#hr-quest{
+    color: rgb(223, 223, 223);
+    margin: 30px 0px;
+}
+
+#text-quest{
+    margin: 0px;
+    display: inline-block;
+}
+
 /*SIMBOLS*/
 
 .fa-arrow-down{
@@ -436,6 +455,12 @@ footer hr{
     color: rgb(0, 132, 255);
 }
 
+.fa-angle-down{
+    display: inline-block;
+    font-size: smaller;
+    margin-left: 40%;
+}
+
 /*JUSTIFY*/
 
 .just-start{
@@ -452,4 +477,8 @@ footer hr{
 
 .t-cent{
     text-align: center;
+}
+
+.just-between{
+    justify-content: space-between;
 }
